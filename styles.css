@@ -1,0 +1,33 @@
+body {
+	background-image: url("background.jpg");
+}
+
+#content {
+	font-family: 'Playfair Display', serif;  	
+	margin: auto;
+  	margin-top: 100px;
+  	background-color: #537CCF;
+  	color: #303030;
+  	height: 50%;
+  	width: 50%;
+  	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: solid;
+	border-color:#585858 ;
+	border-width: 2px;
+}
+
+#row {
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+#inner {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#photo {
+	margin-right: -70px;
+}
