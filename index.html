@@ -17,22 +17,32 @@
 	<!-- Overall Container -->
 	<nav-bar></nav-bar>
 	<div class="container" id="content">
+		<div class="header">
+			<h1>Richard S. Green</h1>
+			<h3 ng-bind="subheader"></h3>
+		</div>
 		<div class="row" id="row">
 			<!-- left-offset photo -->
 			<div class="col-md-6">
-				<img class="img-responsive center-block" id="photo" src="img/clown.jpg" alt="headshot">
+				<img class="img-responsive center-block" id="photo" src="img/Richard_S_Green.jpg" alt="headshot">
 			</div>
 			<div ng-view class="col-md-6"></div>
 		</div>
 	</div>
+	<rsg-footer></rsg-footer>
 	
 	<!-- Modules -->
 	<script src="js/app.js"></script>
 
 	<!-- Controllers -->
 	<script src="js/controllers/HomeController.js"></script>
+	<script src="js/controllers/ExpController.js"></script>
+	<script src="js/controllers/AwardsController.js"></script>
+
 
 	<!-- Directives -->
 	<script src="js/directives/navBar.js"></script>
 	<script src="js/directives/bio.js"></script>
+	<script src="js/directives/rsgFooter.js"></script>
+
 </body>

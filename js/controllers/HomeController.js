@@ -1,5 +1,3 @@
 app.controller('HomeController', ['$scope', function($scope){
-	$scope.bio = 
-	"Dick Green focuses his practice on corporate and securities transactions, including mergers and acquisitions; private and public debt and equity financings; contests for corporate control, including tender offers and proxy contests; \"going private\" transactions; joint ventures; strategic alliances; the formation and termination of partnerships; and general corporate matters. Dick also has substantial experience in restructuring financially troubled companies, including the purchase and sale of businesses within the context of bankruptcy proceedings. Dick has particular expertise in merger and acquisition transactions involving businesses in the infrastructure sector, including public utilities, engineering and infrastructure-oriented services firms, construction companies, and construction materials businesses, as well as in the development and sale of infrastructure projects, including public-private partnerships. Additionally, he regularly advises boards of directors of public and private companies regarding securities law disclosure, corporate governance, and fiduciary duty issues, including Sarbanes-Oxley Act issues."; 
-	$scope.email = "rsg@richardsgreen.com";
+	$scope.subheader="Attorney at Law";
 }]);
