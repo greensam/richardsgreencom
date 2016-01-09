@@ -17,6 +17,11 @@ app.config(function($routeProvider){
 		controller:'AwardsController',
 		templateUrl: 'views/awards.html'
 	})
+	.when('/services',{
+		subheader: 'Representative Client Services',
+		controller: 'ServicesController',
+		templateUrl: 'views/services.html'
+	})
 	.otherwise({
 		redirectTo:"/"
 	});
